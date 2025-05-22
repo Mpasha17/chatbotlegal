@@ -33,7 +33,7 @@ def get_retriever():
     """
     try:
         pdf_paths = [
-            "data/PDFFile5b28c9ce64e524.54675199.pdf",
+            "data/Guide-to-Litigation-in-India.pdf",
             "data/PDFFile5b28c9ce64e524.54675199.pdf"
         ]
         

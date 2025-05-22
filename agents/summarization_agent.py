@@ -5,6 +5,7 @@ This module is responsible for extracting key explanations from complex legal to
 and converting them into plain, easy-to-understand language while preserving accuracy.
 """
 
+import os
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
 from langchain_mistralai import ChatMistralAI

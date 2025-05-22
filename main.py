@@ -8,6 +8,7 @@ a multi-agent chatbot that answers legal questions.
 from legal_chatbot.agents.query_agent import load_index, get_relevant_docs
 from legal_chatbot.agents.summarization_agent import summarize_answer
 from dotenv import load_dotenv
+MISTRAL_API_KEY = os.getenv("MISTRAL_API_KEY")
 import os
 import logging
 

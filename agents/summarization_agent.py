@@ -8,6 +8,7 @@ and converting them into plain, easy-to-understand language while preserving acc
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
 from langchain_mistralai import ChatMistralAI
+MISTRAL_API_KEY = os.getenv("MISTRAL_API_KEY")
 import logging
 
 # Set up logging

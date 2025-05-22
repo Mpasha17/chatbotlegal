@@ -4,13 +4,13 @@ Query Agent Module
 This module is responsible for fetching relevant sections from legal documents
 based on user queries using vector search.
 """
-
+import os
 from langchain_community.document_loaders import PyPDFLoader
 from langchain.text_splitter import CharacterTextSplitter
 from langchain_community.vectorstores import FAISS
 from langchain_mistralai import MistralAIEmbeddings
 MISTRAL_API_KEY = os.getenv("MISTRAL_API_KEY")
-import os
+
 import logging
 
 # Set up logging

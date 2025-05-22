@@ -4,13 +4,13 @@ Streamlit web interface for the Legal Chatbot
 
 This module provides a web interface for the Legal Chatbot using Streamlit.
 """
-
+import os
 import streamlit as st
 from agents.summarization_agent import summarize_answer
 from agents.query_agent import load_index, get_relevant_docs
 from dotenv import load_dotenv
 MISTRAL_API_KEY = os.getenv("MISTRAL_API_KEY")
-import os
+
 import logging
 
 # Set up logging
